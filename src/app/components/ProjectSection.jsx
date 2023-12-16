@@ -72,16 +72,16 @@ const projectData = [
         image:"/images/projects/MombasaMetreGaugeRailwayAndMakupaBridge.png",
         tag:["All", "Web"],
     },
-    // {
-    //     id: 8,
-    //     title: "",
-    //     year: "",
-    //     location: "",
-    //     client: "",
-    //     description: "",
-    //     image:"",
-    //     tag:["All", "Web"],
-    // },
+    {
+        id: 8,
+        title: "Earth Spoil and Stone dumpsite, Mombasa",
+        year: "",
+        location: "",
+        client: "",
+        description: "",
+        image:"/images/projects/dumpsite.jpeg",
+        tag:["All", "Web"],
+    },
 ]
 
 const ProjectSection = () => {

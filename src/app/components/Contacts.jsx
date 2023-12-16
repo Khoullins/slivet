@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Contacts = () => {
   return (
-    <section className='h-screen w-auto bg-[#004E60] ' id='contact'>
+    <section className='xl:h-screen lg:h-screen md:h-screen sm:h-screen w-auto bg-[#004E60] ' id='contact'>
         <div className="mx-auto w-1/2 items-center justify-center xl:w-fit lg:w-fit md:w-fit sm:w-fit">
                     {/* <h1 className='text-center mb-4 text-white sm:text-2xl lg:text-4xl'>Your sustainable <b>development partner</b></h1>                                         */}
                     <Image 

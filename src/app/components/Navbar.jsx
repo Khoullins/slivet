@@ -16,6 +16,10 @@ const navLinks = [
         path: "#about",
     },
     {
+        title: "WhatWeDo",
+        path: "#whatwedo",
+    },
+    {
         title: "Projects",
         path: "#projects",
     },
@@ -29,11 +33,11 @@ const Navbar = () => {
 
     return (
         <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#004E60] bg-opacity-100">
-            <div className='flex flex-wrap items-center justify-between mx-auto xl:ml-10 lg:ml-10 sm:ml-4 p-4 py-4'>
+            <div className='flex flex-wrap items-center justify-between mx-auto xl:ml-10 lg:ml-10 sm:ml-4 p-2 py-0'>
                 <Link 
                     href={"/"} 
                     className='text-2xl md:text-5xl text-white font-semibold'>
-                    <img className='h-16 max-w-full' src="/images/slivetPrimLogoBgNon.png" alt="logo" />
+                    <img className='h-16 max-w-full' src="/images/slivetSecLogoBgNonHD.png" alt="logo" />
                 </Link>
                 <div className="mobile-menu block md:hidden">
                     {!navbarOpen ? (

@@ -4,10 +4,10 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   return (
-    <section className='bg-[#004E60]  mx-auto p-y4 h-screen' id='/'>
+    <section className='bg-[#004E60]  mx-auto p-y4 xl:h-screen lg:h-screen md:h-screen sm:h-screen  ' id='/'>
         <div className='flex flex-row  items-center justify-center'>
          <div className="flex flex-col ml-2 mr-2 auto-cols-max">
-                <div className="sm:text-left mx-auto w-1/2 mt-32 xl:text-center sm:w-fit">
+                <div className="sm:text-left mx-auto w-1/2 mt-24 xl:text-center sm:w-fit">
                     <h1 className='text-center mb-4 text-white sm:text-2xl lg:text-4xl'>Your sustainable <b>development partner</b></h1>                    
                 </div>
                 <div className='flex flex-row mx-auto w-1/2'>
@@ -41,7 +41,7 @@ const HeroSection = () => {
                 </div>
             </div>              
        </div>
-       <div className="mx-auto w-1/2 items-center justify-center xl:w-fit lg:w-fit md:w-fit sm:w-fit">
+       <div className="mx-auto w-1/2 items-center justify-center  xl:w-fit lg:w-fit md:w-fit sm:w-fit xl:h-fit lg:h-fit md:h-fit sm:h-fit ">
                     {/* <h1 className='text-center mb-4 text-white sm:text-2xl lg:text-4xl'>Your sustainable <b>development partner</b></h1>                                         */}
                     <Image 
                             src='/images/slivetSecLogoBgNonHD.png'

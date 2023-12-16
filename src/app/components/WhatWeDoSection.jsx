@@ -43,7 +43,7 @@ const doData = [
 
 const WhatWeDoSection = () => {
   return (
-    <section id='what' className='bg-slate-200'>
+    <section id='whatwedo' className='bg-slate-200'>
         <div>
             <h2 className='text-center text-4xl font-bold text-[#004E60] mt-24 mb-8 md:mb-12'>
                 WHAT WE DO
