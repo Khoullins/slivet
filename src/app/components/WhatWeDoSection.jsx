@@ -45,7 +45,7 @@ const WhatWeDoSection = () => {
   return (
     <section id='whatwedo' className='bg-slate-200'>
         <div>
-            <h2 className='text-center text-4xl font-bold text-[#004E60] mt-24 mb-8 md:mb-12'>
+            <h2 className='text-center text-4xl font-bold text-[#004E60] py-16 mb-8 md:mb-12'>
                 WHAT WE DO
                 <p className='text-xl text-center text-[#00AEEF]'>
                 We implement the practical aspects of <b>protecting <br></br>the environment and maintaining health and safety at occupation.    </b>

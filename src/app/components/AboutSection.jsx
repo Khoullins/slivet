@@ -19,13 +19,13 @@ const AboutSection = () => {
                 </p>
             </div>            
         </div>
-        <div className='text-4xl text-[#00AEEF] items-center justify-items-center text-center mx-auto w-1/2'>
+        <div className='text-4xl text-[#00AEEF] items-center justify-items-center text-center mx-auto w-1/2 mb-10'>
               <p>We have great Experience in <b>Environmental, Health and Safety field.</b></p>
               <button className='py-1 mb-6 mx-auto w-1/3  bg-gradient-to-r from-[#00AEEF] to-[#39B54A]'></button>
             </div>
-            <div>
+            {/* <div>
                   <br />  
-            </div>
+            </div> */}
     </section>
   )
 }
