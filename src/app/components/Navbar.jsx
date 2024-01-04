@@ -27,6 +27,10 @@ const navLinks = [
         title: "Contact",
         path: "#contact",
     },
+    {
+        title: "Smart",
+        path: "#smart",
+    },
 ];
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);

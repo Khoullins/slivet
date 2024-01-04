@@ -4,7 +4,8 @@ import Navbar from './components/Navbar';
 import AboutSection from './components/AboutSection';
 import ProjectSection from './components/ProjectSection';
 import Contacts from './components/Contacts';
-import WhatWeDoSection from './components/WhatWeDoSection';
+import WhatWeDo from './components/WhatWeDo';
+
  
 export default function Home() {
   return (
@@ -13,9 +14,11 @@ export default function Home() {
         <div>        
           <HeroSection />
           <AboutSection />
-          <WhatWeDoSection />
+          <WhatWeDo />
           <ProjectSection />
           <Contacts />
+          
+
         
         </div>
     </main>
